@@ -13,7 +13,7 @@ It uses the copy-paste NPM module, which has the following requirements:
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Initial release of Copy WSL Path
 
