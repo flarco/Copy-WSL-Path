@@ -7,7 +7,7 @@ import * as vscode from 'vscode';
 export function activate(context: vscode.ExtensionContext) {
 
     let disposable = vscode.commands.registerCommand('copy-WSL-path.copy', (e) => {
-        const text = "/mnt" + (e.path as string).replace(':', '');
+        const text = "/mnt" + (e.path as string).replace(':', '').replace('/C/', '/c/');
         ncp.copy(text);
     });
 
