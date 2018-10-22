@@ -1,9 +1,9 @@
 {
-    "name": "copy-wsl-path",
-    "displayName": "Copy WSL Path",
+    "name": "copy-wsl-path-fl",
+    "displayName": "Copy WSL Path [FL]",
     "description": "Add Copy WSL Path to the file context menu",
-    "version": "0.0.1",
-    "publisher": "CoenraadS",
+    "version": "0.0.2",
+    "publisher": "CoenraadSFL",
     "engines": {
         "vscode": "^1.18.0"
     },
